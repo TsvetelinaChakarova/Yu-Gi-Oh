@@ -10,10 +10,10 @@ Cards can be added to the deck. cards from the deck can be changed. A deck can b
 
 A duelist has name and deck.
 Duelist's deck can be read from a file with a certain format: 
-deckname|<CardsCount>|<monsterCardsCount>|<magicCardsCount>|<pendulumCardsCount>
-<name>|<effect>|<rarity>|<attackPoints>|<defencePoints>  //monsterCardsCount lines 
-<name>|<effect>|<rarity> |<type>   //magicCardsCount lines
-<name>|<effect>|<rarity>|<attackPoints>|<defencePoints>|<pendulumScale>|<type>   //PendulumCardsCount lines
+deckname|CardsCount|monsterCardsCount|magicCardsCount|pendulumCardsCount
+name|effect|rarity|attackPoints|defencePoints  //monsterCardsCount lines 
+name|effect|rarity|type   //magicCardsCount lines
+name|effect|rarity|attackPoints|defencePoints|pendulumScale|type   //PendulumCardsCount lines
 And can be saved to a file with the same format.
 
 A simple duel can take place between duelists with the same number of cards. Their decks are compared based on rarity.
