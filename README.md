@@ -10,7 +10,7 @@ Cards can be added to the deck. cards from the deck can be changed. A deck can b
 
 A duelist has name and deck.
 Duelist's deck can be read from a file with a certain format: 
-<deckname>|<CardsCount>|<monsterCardsCount>|<magicCardsCount>|<pendulumCardsCount>
+deckname|<CardsCount>|<monsterCardsCount>|<magicCardsCount>|<pendulumCardsCount>
 <name>|<effect>|<rarity>|<attackPoints>|<defencePoints>  //monsterCardsCount lines 
 <name>|<effect>|<rarity> |<type>   //magicCardsCount lines
 <name>|<effect>|<rarity>|<attackPoints>|<defencePoints>|<pendulumScale>|<type>   //PendulumCardsCount lines
