@@ -1,3 +1,5 @@
+//Part of "Object - oriented programming in C++" course.
+
 Cards, deck and duleist structure similar to Yu-Gi-Oh ideas.
 
 There are 3 types of cards: 
@@ -17,5 +19,3 @@ name|effect|rarity|attackPoints|defencePoints|pendulumScale|type   //PendulumCar
 And can be saved to a file with the same format.
 
 A simple duel can take place between duelists with the same number of cards. Their decks are compared based on rarity.
-
-//The project is a part of "Object - oriented programming in C++" course.
